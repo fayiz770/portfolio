@@ -13,7 +13,7 @@ export default function Info() {
             <div className='info--buttons'>
                 <button>
                     <a 
-                    href='https://mail.google.com/mail/?view=cm&fs=1&to=mohammadwaris456@gmail.com&su=&body=&bcc='
+                      href='https://mail.google.com/mail/?view=cm&fs=1&to=mohammadwaris456@gmail.com&su=&body=&bcc='
                     >
                         <FontAwesomeIcon className='fa-lg' icon={faEnvelope} />
                     </a>
