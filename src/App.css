@@ -1,0 +1,78 @@
+* {
+  margin: 4px;
+}
+.App {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+}
+.card{
+  width: 400px;
+  border-radius: 10px;
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info--image{
+  margin-top: -26px;
+  width: 440px;
+  height: 400px;
+  border-radius: 10px 10px 0px 0px;
+}
+.info--buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+}
+button{
+  width: 40%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+}
+.info--button{
+  background-color: lightseagreen;
+  color: white;
+}
+.p {
+  color: #aaa;
+}
+.interest--text{
+  margin-bottom: 30px;
+}
+.footer{
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: #111;
+  border-radius: 0px 0px 10px 10px;
+  margin: -20px;
+  height: 40px;
+  padding: 10px;
+}
+.socialIcon{
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+}
+.fa-2x, .info--button1{
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
