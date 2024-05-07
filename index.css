@@ -1,0 +1,91 @@
+:root {
+    --dark-blue: #114084;
+    --blue: #3466aa;
+    --light-blue: #82b7dc;
+    --white: #f1f1f1;
+    --gray: #808080;
+    --dark: #1c1c1c0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* ************************************************************************************************** */
+
+.container {
+    margin: 0;
+    height: 100vh;
+    background-image: url('portfolio2.jpg');
+    background-size: cover;
+    padding: 0 4em;
+}
+
+/* ************************************************************************************************** */
+ 
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+
+p {
+    margin: 0;
+}
+
+.name {
+    color: var(--dark-blue);
+    font-size: 2em;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list > li {
+    margin-right: 2em;
+}
+
+
+/* ************************************************************************************************** */
+
+.main {
+    display: flex;
+    height: 92vh;
+}
+
+/* ************************************************************************************************** */
+
+.empty {
+    display: flex;
+    width: 30vw;
+}
+
+
+.title {
+    text-shadow: 1px 1px 2px var(--white), 0 0 1em var(--white), 0 0 0.2em var(--light-blue);
+    color: var(--blue);
+    margin-bottom: 10em;
+    margin-top: auto;
+    width: 70vw;
+}
+
+.title > p {
+    padding-left: 5rem;
+    border-left: 1rem solid var(--gray);
+    font-size: 7em;
+}
+
+/* ************************************************************************************************** */
+
+
+.experience {
+    background-color: #114084;
+}
