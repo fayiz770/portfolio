@@ -19,7 +19,7 @@ body {
 .container {
     margin: 0;
     height: 100vh;
-    background-image: url('portfolio2.jpg');
+    background-image: url('portfolio.jpg');
     background-size: cover;
     padding: 0 4em;
 }
