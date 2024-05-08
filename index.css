@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 :root {
     --dark-blue: #114084;
     --blue: #3466aa;
@@ -7,22 +11,31 @@
     --dark: #1c1c1c0;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
 
-body {
+
+body, html {
+    font-family: lexend, 'sans serif';
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 /* ************************************************************************************************** */
 
-.container {
-    margin: 0;
+.hero,
+.experience {
+    padding: 0 4rem;
+}
+
+.hero {
     height: 100vh;
+    height: 100svh;
     background-image: url('portfolio.jpg');
     background-size: cover;
-    padding: 0 4em;
 }
+
 
 /* ************************************************************************************************** */
  
@@ -50,7 +63,13 @@ p {
 }
 
 .nav-list > li {
+    text-decoration: none;
     margin-right: 2em;
+}
+
+.nav-list li a {
+    color: inherit;
+    text-decoration: none;
 }
 
 
@@ -87,5 +106,48 @@ p {
 
 
 .experience {
-    background-color: #114084;
+    background: #808080;
+    height: 100vh;
+    height: 100svh;
+}
+
+.experience-header {
+    position: relative;
+        height: 50vh;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+}
+
+.experience-header h1 {
+    font-size: 1em;
+}
+
+.experience-header p {
+    width: 70%;
+    font-size: 3em;
+}
+
+.experiences {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+.company {
+    cursor: pointer;
+    color: #114084;
+}
+
+.experiences div {
+    width: 20rem;
+}
+.experiences div h1 {
+    font-size: 10em;
+}
+
+.experiences div h3 {
+    font-size: 2.5em;
 }
